@@ -21,7 +21,7 @@ struct CalculatorLogic {
     
     mutating func calculate(_ method: String) -> Double? {
         guard let number = number else { return nil }
-
+//
         switch method {
         case "AC":
             return 0
